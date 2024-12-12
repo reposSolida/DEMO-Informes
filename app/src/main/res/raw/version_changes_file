@@ -1,0 +1,289 @@
+<card>
+<h> [25/10/23] alpha_v0.9.9</h>
+<d> Correcciones menores</d>
+<c>
+<br><strong> Corregidos los errores: </strong>
+   <ol>
+     <li> Corregido el error: "Filtros en productos no están funcionando correctamente".</li>
+   </ol>
+</c>
+</card>
+
+<card>
+<h> [16/10/23] alpha_v0.9.8</h>
+<d> Correcciones menores, implementación de optimizaciones</d>
+<c>
+<strong>+</strong> Implementado <strong>sistema de cache</strong> para optimizar el proceso de carga de productos. <br><br>
+<strong>+</strong> Agregada función <strong>mantener filtros</strong>. <br><br>
+<strong>+</strong> Agregada función <strong>filtrar productos estrella</strong>. <br><br>
+<strong>+</strong> Agregado parametro y logica para permitir el <strong>desbloquo automatico del cliente </strong>. del cliente al generar un recibo <br><br>
+<strong>+</strong> Agregada nueva opcion <strong>Enfocar cuadro de búsqueda automáticamente </strong>. <br><br>
+<strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+<card>
+<h> [20/9/23] alpha_v0.9.7</h>
+<d> Correcciones menores, implementación de funcionalidades, optimizaciones, cambios funcionales</d>
+<c>
+<strong>+</strong> Implementado cambio funcional <strong>Rehecha la logica de duplicado de pedido</strong>. En lugar de crear una copia del pedido original, busca los productos con sus precios y politicas
+actuales y recalcula cual seria el precio de actual del pedido. En caso de que no exista alguno de los productos del pedido original se le mostrará un mensaje alertando al usuario.<br>
+<strong>+</strong> Implementada logica para <strong>descuento cabezal y descuento cabezal excluyente</strong>.<br><br>
+<strong>+</strong> Implementada optimización <strong>Mejorado el sistema de busqueda de productos</strong>.<br><br>
+<strong>+</strong> Implementada funcionalidad <strong>Selección de múltiples fotos desde la galería</strong>.<br><br>
+<strong>+</strong> Implementada funcionalidad <strong>Escaneo de codigo de barras de productos.</strong>.<br><br>
+  <strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+<card>
+<h> [12/9/23] alpha_v0.9.6</h>
+<d> Corrección de errores, optimizaciones, cambios funcionales</d>
+<c>
+<strong>+</strong> Implementado cambio funcional <strong>Cargar unidad base del pruducto basandose en el canal por defecto</strong>.<br><br>
+<strong>+</strong> Implementada optimización <strong>Mejora en la velocidad de carga del listado de productos</strong>.<br><br>
+<br><strong> Corregidos los errores: </strong>
+   <ol>
+     <li> Corregido el error: "Al generar un recibo asociado a una factura no se estan enviando las referencias al documento".</li>
+     <li> Corregido el error: "Al entrar a los detalles de un productos en una solicitud de devolucion muestra todos los motivos de devolución sin considerar el estado dependiendo del tipo de documento. Ademas debe mostrar por defecto el mismo motivo que se selecciono en la pantalla anterior"</li>
+     <li> Corregido el error: "En algunos clientes al generar el pedido se esta llamando dos veces al ws set_documentos y los números están quedando alternados" Esto sucedia solo con los clientes que pueden retener pedidos por créditos, parte de la logica no estaba correcta.</li>
+     <li> Cambio menor: "La descripción del producto, en algunos clientes prefieren que sea estática y no persiana , porque como es este caso, las descripciones son muy largas y no queda cómodo".</li>
+   </ol>
+   <strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+<card>
+<h> [7/9/23] alpha_v0.9.5</h>
+<d> Corrección de errores, Implementadas funcionalidades menores</d>
+<c>
+<strong>+</strong> Implementada funcionalidad menor <strong>Resaltar parametros faltantes en alta cliente</strong>.<br><br>
+<strong>+</strong> Implementada optimización menor <strong>Mejora velocidad en carga inicial</strong>.<br><br>
+<br><strong> Corregidos los errores: </strong>
+   <ol>
+     <li> Corregido el error: "Al seleccionar imprimir si el bluetooth esta desactivado la app se cierra".</li>
+     <li> Corregido el error: "Cuando le doy a un recibo me debería mostrar solo lo correspondiente a ese recibo"</li>
+     <li> Corregido el error: "No se muestra la factura asociada a un recibo de cobranza".</li>
+     <li> Añadida optimización: "Envio de recibos está tardando mucho". Restringido el movimiento del usuario solo lo que demora en el envio de la información pertinente al recibo, el resto de datos se envian en un segundo plano ajenos al usuario.</li>
+     <li> Corregido el error: "Al crear un pedido de tipo usd con el usuario ESOSA la app se cierra". La app estaba dando error pq el factor de conversion está llegando vacio. Añadidas validaciones para que el app no se cierre aun en ese caso y que asigne un valor por defecto.</li>
+     <li> Corregido el error: "Al imprimir un pedido en la columna Dtos/Rgos no se muestra el descuento". Error solo visual, los descuentos y las politicas se aplicaban correctamente solo no dibujaba el valor en la columna.</li>
+     <li> Corregido el error: "Al crear un pedido de tipo precio digitado para un cliente con deposito la app se cierra".</li>
+   </ol>
+   <strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+<card>
+<h> [5/9/23] alpha_v0.9.4</h>
+<d> Corrección de errores, Implementadas funcionalidades menores</d>
+<c>
+<strong>+</strong> Implementada funcionalidad menor <strong>Resaltar productos estrella</strong>.<br><br>
+<br><strong> Corregidos los errores: </strong>
+   <ol>
+     <li> Corregido el error: "Impresión no está funcionando correctamente".</li>
+     <li> Corregido el error: "Cuando documento pendiente no tiene asociada una moneda app se cierra". Añadida validación para que en caso de que el documente carezca de moneda se le muestre un mensaje al usuario y en ningún caso de error la app y se cierre</li>
+     <li> Corregido el error: "En Android 10 app da un error de permisos a la hora de descargar documentos".</li>
+     <li> Corregido el error: "En informes venta por productos en algunos clientes no esta mostrando el valor".</li>
+     <li> Mejora menor: "Mejorado sistema de busqueda de productos".</li>
+     <li> Añadida validación faltante: "Al duplicar un pedido antiguo permite confirmar el pedido con una fecha anterior a la de hoy". Añadida validación para que solo pueda confirmar el pedido si la fecha del mismo es mayor o igual a la actual.</li>
+   </ol>
+   <strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+
+<card>
+<h> [1/9/23] alpha_v0.9.3</h>
+<d> Corrección de errores, Implementadas funcionalidades menores </d>
+<c>
+<strong>+</strong> Implementada funcionalidad menor <strong>Cambio tipo teclado dinámico</strong>. Si la empresa tiene el parámetro correspondiente activo es posible alternar el teclado entre solo numeros y alphanumerico.<br><br>
+<strong>+</strong> Implementada funcionalidad menor faltante <strong>Boton reporte en cobranza del día</strong>.<br><br>
+<strong>+</strong> Implementada funcionalidad menor <strong>Opción para activar/desactivar tutorial</strong>.<br><br>
+<strong>+</strong> Implementado cambio menor <strong>Filtros guardados se resetean si el usuario agrega el producto seleccionado</strong>.<br><br>
+<strong>+</strong> Implementado cambio menor <strong>Ruta del dia mustra el orden del usuario en la traza en lugar de mostrar la primera letra del nombre</strong>.<br><br>
+
+<br><strong> Corregidos los errores: </strong>
+   <ol>
+     <li> Corregido el error: "Cliente con CliEstado activo no permite ingreso a cobranza".</li>
+     <li> Corregido el error: "Atributo recLat está viniendo nulo" modificada la app para aceptar nulo como un posible valor.</li>
+     <li> Corregido el error: "Muestra  los valores y no los recibos en la pestaña recibos del día".</li>
+     <li> Corregido el error: "App se cierra si le doy a la impresora en cobranza del día". No se logró replicar el error, pero se añadieron varias validaciones para evitar el crasheo de la app</li>
+     <li> Corregido el error: "En informes, venta por producto no muestra todos los productos vendidos, solo 1".</li>
+   </ol>
+   <strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+<card>
+<h> [28/8/23] alpha_v0.9.2</h>
+<d> Corrección de errores, Implementada una funcionalidad menor. </d>
+<c>
+<strong>+</strong> Implementada funcionalidad menor de prueba <strong>Tutorial guiado</strong>. Muestra un pequeño tutorial explicando las cosas principales de la pantalla de inicio y del menu de navegación.<br>
+<br><strong> Corregidos los errores: </strong>
+   <ol>
+     <li> Corregido color de la cliente, el color no se estaba asignando correctamente cuando el cliente no tiene visita ni venta pero tiene motivos de no visita y de no venta.</li>
+     <li> Corregido que en el nombre del cliente se mostraran concatenados el nombre y la razón social.</li>
+     <li> Corregido el error: "En cobranza, en un caso no se solicita no de cuenta pero cuando le doy a confirmar me sale el mensaje debe ingresar nro de cuenta".</li>
+     <li> Corregido el error: Al crear un documento de tipo solicitud de retiro, aparecen más motivos de los que deberia, no está filtrando los motivos especificos para el tipo de documento de la empresa.</li>
+   </ol>
+   <strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+<card>
+<h> [22/8/23] alpha_v0.9.1</h>
+<d> Implementada 1 funcionalidad menor, varios cambios menores </d>
+<c>
+<strong>+</strong> Implementada funcionalidad menor <strong>Ampliar foto producto</strong>. Permite hacer zoom en la foto del producto para verlo en mayor detalle.<br>
+
+<br><strong> Cambios y correcciones menores:</strong>
+    <ul>
+    <li> Implementados varios cambios menores en el diseño.</li>
+    <li> Implementada correccion menor en la ruta del día.</li>
+    <li> Implementada correccion menor información de visita.</li>
+    </ul>
+<strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+<card>
+<h> [18/8/23] alpha_v0.9.0</h>
+<d> Implementada 1 funcionalidad menor, varios cambios menores </d>
+<c>
+<strong>+</strong> Implementada funcionalidad <strong>Cambiar Contraseña</strong>.<br>
+
+<br><strong> Cambios y correcciones menores:</strong>
+    <ul>
+    <li> Implementada pantalla de opciones</li>
+    <li> Implementados varios cambios menores en el diseño</li>
+    <li> Implementadas varios validaciones para evitar que el app se cierre por falta de datos.</li>
+    </ul>
+<strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+<card>
+<h> [14/8/23] alpha_v0.8.9</h>
+<d> Implementada 1 funcionalidad menor, varias correcciones menores </d>
+<c>
+<strong>+</strong> Implementada funcionalidad <strong>Imprimir</strong>.<br>
+
+<br><strong> Correcciones menores:</strong>
+    <ul>
+    <li> Implementada correccion en politicas</li>
+    <li> Implementada correccion en consulta de rutas para que tenga en cuenta el caso de que el numero de la semana sea 3</li>
+    <li> Implementada correccion al bug: "Hay que eliminar dos veces la politica para que se actualize la informacion del descuento y que no simpre muestra las politicas del articulo en la pantalla politicas aplicadas respetando la misma logica".</li>
+    <li> Implementada correccion menor, boton anular pedido no se muestraba en ocasiones, quedaba oculto.</li>
+    <li> Implementada correccion menor cambiar locacion cliente mostraba por defecto el primer cliente local cuando el usuario venia de alta cliente.</li>
+    <li> Implementada correccion menor cuando se creaba la solucitud de retiro los precios del producto no se mostraban en 0 como es esperado.</li>
+    <li> Implementada correccion: "Al intentar hacer una solicitud de retiro para un cliente que dicho articulo no esta en la lista de precios 1, no semuestra para poder ingresarlo. Ejemplo cliente 57219001 articulo 581".</li>
+    <li> Implementada correccion en alta cliente, solo se puede añadir una localidad, barrio, canal y/o subcanal si los mismos son validos y existen.</li>
+    <li> Implementado dialog personalizado para todos los dialogs existentes.</li>
+    <li> Correcciones y cambios visuales</li>
+    </ul>
+
+<strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+<card>
+<h> [04/8/23] alpha_v0.8.8</h>
+<d> Implementada 3 funcionalidades menores, correcciones menores </d>
+<c>
+<strong>+</strong> Implementada validación para verificar que el usuario cumple todos los requisitos para el <strong>Cambio de Usuario</strong>.<br>
+<strong>+</strong> Implementada validación para verificar que el usuario cumple todos los requisitos para el <strong>Cambio de Ambiente</strong>.<br>
+<strong>+</strong> Implementada funcionalidad filtrar en fragmento <strong>Pedido</strong>.<br>
+
+<br><strong> Correcciones menores:</strong>
+    <ul>
+    <li> Correcciones y cambios visuales</li>
+    <li> Implementada correccion en alta cliente, para que cuando falten datos no crashee la app</li>
+    <li> Implementada funcionalidad para esconder el boton de nuevo pedido si la traza del usuario no es actual</li>
+    </ul>
+
+<strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+<card>
+<h> [28/7/23] alpha_v0.8.7 </h>
+<d> Implementada 3 funcionalidades, correcciones menores </d>
+<c>
+<strong>+</strong> Implementada la funcionalidad <strong>Anular Recibo</strong>.<br>
+<strong>+</strong> Implementada la funcionalidad <strong>Seleccionar Empresa</strong> para clientes con más de una empresa.<br>
+<strong>+</strong> Implementada la funcionalidad <strong>Ordenar clientes</strong> para la lista de clientes en la ruta.<br>
+
+<br><strong> Correcciones menores:</strong>
+    <ul>
+    <li> Correcciones y cambios visuales</li>
+    <li> Implementado  sistema en <strong>inicio/fin de visita</strong> para garantizar que siempre viajen con lat y long.</li>
+    </ul>
+
+<strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+
+<card>
+<h> [24/7/23] alpha_v0.8.6 </h>
+<d> Corrección de errores, implementada 1 funcionalidad, correcciones menores </d>
+<c>
+<strong>+</strong> Implementada la funcionalidad <strong>Información</strong>.<br>
+
+ <br><strong> Corregidos los errores: </strong>
+    <ol>
+     <li> Visita; en motivo de no visita muestra el primer valor del combo (ADELANTO DE RUTA) pero en realidad esta vacío porque aun no se confirmó, debe mostrar motivo vacio o texto “seleccionar motivo”.</li>
+     <li> Error a la hora de cerrar el dia debido a que el usuario tenia un documento pendiente con informacion nula.</li>
+     <li> Color del cliente no estableciendose correctamente: COLOR cliente ROJO: Si el cliente tiene venta y no tiene visita y le falta motivo de visita. También si tiene cobranza y no tiene recibo o no tiene motivo de NO COBRANZA.</li>
+     <li> Después de confirmar un pedido, le doy para atrás y no va a la ruta, se queda “pegado’.</li>
+    </ol>
+    <strong> Correcciones menores:</strong>
+    <ul>
+    <li> Rehecho el aspecto visual de venta.</li>
+    <li> Agregado busqueda en las pantallas: Ruta del Dia, y Agregar Cliente Local.</li>
+    <li> Los filtros deben mantenerse, si se uso alguno por ej FAMILIA.</li>
+    <li> Implementado shimmer en Cobranza, clientes locales, Ingreso Producto Cantidad, Ingreso Producto Cantidad Precio Digitado y .</li>
+    <li> Implementados cambios visuales en toda la app.</li>
+    <li> Implementadas correcciones en la navegación.</li>
+    </ul>
+
+<strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+<card>
+<h> [14/7/23] alpha_v0.8.5 </h>
+<d> Corrección de errores, implementada 3 funcionalidades, correcciones menores </d>
+<c>
+<strong>+</strong> Implementada la funcionalidad <strong>Log de Versiones</strong>.<br>
+<strong>+</strong> Implementada la funcionalidad <strong>Generado de Pdf</strong> en <strong>Recibos</strong>>.<br>
+<strong>+</strong> Implementado el <strong>Fragmento Gastos</strong> y su fragmento asociado <strong>Agregar Gasto</strong>.<br>
+
+ <br><strong> Corregidos los errores: </strong>
+    <ol>
+     <li> Cuando voy al carrito y visualizo el producto me cambia la unidad.</li>
+     <li> Error que crasheaba la app abriendo las politicas en algunos productos con múltiples políticas.</li>
+     <li> Corregidos errores menores encontrados en el inicio/fin de visitas.</li>
+    </ol>
+
+<strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+
+<card>
+<h> [12/7/23] alpha_v0.8.4 </h>
+<d> Corrección de errores, implementada 1 funcionalidad, correcciones menores </d>
+<c>
+<strong>+</strong> Implementada la funcionalidad <strong>Indicadores</strong>.<br>
+
+ <br><strong> Corregidos los errores: </strong>
+   <ol>
+     <li> Ingreso la cantidad, luego botón verde (políticas)y vuelvo. Se pierde la cantidad ingresada.</li>
+     <li> Desde el carrito, si ves las políticas aplicadas no muestra el nombre de la política, dice solo la moneda.</li>
+     <li> Cuando se duplica un pedido, no está copiando las políticas aplicadas. Muestra el botón verde con el % y el valor pero dice que no tiene descuentos.</li>
+   </ol>
+
+<strong>+</strong> Implementedas correciones menores visuales y funcionales.<br>
+</c>
+</card>
+

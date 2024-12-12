@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082253687683",
+    "project_id": "sd-preventa-v2",
+    "storage_bucket": "sd-preventa-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082253687683:android:1e2c3a4e174ea9416594b6",
+        "android_client_info": {
+          "package_name": "com.solidatec.pre_ventav2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082253687683-qh2644q21hneb64sm0v8dlum0uik19eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7zfaCjPGtSc18um90ffLYDOaBCcJwqf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082253687683-qh2644q21hneb64sm0v8dlum0uik19eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

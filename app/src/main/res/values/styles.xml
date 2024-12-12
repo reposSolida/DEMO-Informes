@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="sap_icono_style">
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">10dp</item>
+    </style>
+
+    <style name="sap_cargando_style">
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">10dp</item>
+    </style>
+
+    <style name="banco_text_style">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="banco_sucursal_text_style" parent="banco_text_style">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="novedadesDialogButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginTop">@dimen/top_margin</item>
+        <item name="android:layout_marginEnd">@dimen/small_top_margin</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+</resources>

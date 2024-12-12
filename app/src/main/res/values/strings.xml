@@ -1,0 +1,673 @@
+<resources>
+    <string name="app_name">DEMO</string>
+
+    <string name="no_internet">Sin conexion a internet</string>
+
+    <string name="sincronizando">Sincronizando</string>
+
+    <!-- Inicio: Strings de titulos de Fragments -->
+    <string name="select_type_document" translatable="false">Debe seleccionar Tipo de Documento</string>
+    <string name="total">Total</string>
+    <string name="Cheques">Cheques</string>
+    <string name="Pagos">Pagos</string>
+    <string name="Seleccione_empresa">Seleccione empresa</string>
+    <string name="Visita_Cliente">Visita Cliente</string>
+    <string name="Acerca_de">Acerca de</string>
+    <string name="Pedidos">Pedidos</string>
+    <string name="Productos">Productos</string>
+    <string name="Pedido_Nuevo">Pedido Nuevo</string>
+    <string name="Pedido">Pedido</string>
+    <string name="Cambiar_Ruta">Cambiar Ruta</string>
+    <string name="Seleccionar_Local">Seleccionar Local</string>
+    <string name="Clientes">Clientes</string>
+    <string name="Carrito">Carrito</string>
+    <string name="SeleccionarFactura">Seleccionar Factura</string>
+    <string name="PagarFactura">Pagar</string>
+    <string name="DatosPago">Datos Pago</string>
+    <string name="CantidadProducto">Cantidad Producto</string>
+    <string name="Formularios">Formularios</string>
+    <string name="VistadeFormularios">Vista de Formularios</string>
+    <string name="RutaDelDia">Ruta del día</string>
+    <string name="InfoCliente">Información de cliente</string>
+    <string name="InfoVisita">Información de visita</string>
+    <string name="InfoProductos">Información de producto</string>
+    <string name="PedSinSinc">Pedidos sin sincronizar</string>
+    <string name="ConsultaDeStock">Consulta de stock</string>
+    <string name="ConsultaDePedidos">Consulta de pedidos</string>
+    <string name="Informes">Informes</string>
+    <string name="PedidosDelDia">Pedidos del dia</string>
+    <string name="Promociones">Promociones</string>
+    <string name="CambiarPassword" translatable="false">Cambiar Password</string>
+    <string name="AltaLocales">Alta de Locales</string>
+    <string name="AltaClientes">Alta de Clientes</string>
+    <string name="SeleccionarCliente">Seleccionar Cliente</string>
+    <string name="Descuentos_de_productos">Descuentos de productos</string>
+    <string name="Historial">Historial</string>
+    <string name="Recibos">Recibos</string>
+    <string name="cobranza_del_dia">Cobranza del día</string>
+    <string name="rutas">Rutas</string>
+    <string name="gastos">Gastos</string>
+    <string name="Fotos">Fotos</string>
+    <string name="Novedades" translatable="false">Novedades</string>
+    <!-- Fin: Strings de titulos de Fragments -->
+
+    <!-- Inicio: Strings de botones y etiquetas -->
+    <!-- A -->
+    <string name="Agregar_etiqueta">Agregar</string>
+    <string name="Agregar_productos">Agregar productos</string>
+    <string name="Alerta_GPS">Active el GPS de su celular!</string>
+    <string name="Alerta_cotizacion">Faltan cotizaciones.</string>
+    <string name="Aplicar">Aplicar</string>
+    <string name="AdvertenciaTxt">Advertencia</string>
+    <string name="ActualizacionTxt">Actualizacion disponible</string>
+    <!-- B -->
+    <string name="Barrio">Barrio</string>
+    <string name="Borrar_filtros">Borrar filtros</string>
+    <string name="Bruto">Bruto</string>
+
+    <!-- C -->
+    <string name="Canal">Canal</string>
+    <string name="Sub_Canal">Sub-Canal</string>
+    <string name="Categoria">Categoría</string>
+    <string name="Celular">Celular</string>
+    <string name="Codigo">Codigo</string>
+    <string name="Cod_Corp">Cod. Corp :</string>
+    <string name="Contacto">Contacto</string>
+    <string name="Contacto_local">Contacto local</string>
+    <string name="Cantidad">Cantidad</string>
+    <string name="Campo_obligatorio">Campo obligatorio</string>
+    <string name="Clientes_etiqueta">Clientes:</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="day_close_label">El cierre de dia impedira el ingreso de nuevos pedidos.</string>
+    <string name="Confirmar">Confirmar</string>
+    <string name="Confirmar_pedido">Confirmar pedido</string>
+    <string name="Cliente_gabrado_automaticamente">Cliente grabado automaticamente</string>
+    <string name="Cant._Clientes">Cant. Clientes</string>
+    <string name="Cant._Pedidos">Cant. Pedidos</string>
+    <string name="Condicion_de_venta">Condicion de venta</string>
+    <string name="Cobranza">Cobranza</string>
+
+    <!-- D -->
+    <string name="Datos_personales">Datos personales</string>
+    <string name="selecMotDev" translatable="false">Debe seleccionar un motivo de devolución</string>
+    <string name="deudaCliente" translatable="false">Deuda cliente</string>
+    <string name="do_you_wish_to_continue_label">¿Desea continuar?</string>
+    <string name="Debe_seleccionar_Tipo_de_Documento">Debe seleccionar Tipo de Documento</string>
+    <string name="Desde">Desde</string>
+    <string name="Dirección">Dirección</string>
+    <string name="Documento">Documento</string>
+    <string name="Documentos" translatable="false">Documentos</string>
+    <string name="Dia_Visita">Dia de visita</string>
+
+    <!-- E -->
+    <string name="Editar">Editar</string>
+    <string name="ErrorDev" translatable="false">Error</string>
+    <string name="Elimina_esta_foto" translatable="false">¿ Elimina esta foto ?</string>
+    <string name="Estado">Estado</string>
+    <string name="Estado_Sinc.">Estado Sinc.</string>
+    <string name="El_total_no_coincide_con_los_valores">El total no coincide con los valores</string>
+    <string name="Elimina_este_local">¿ Elimina este local ?</string>
+    <string name="Error_Georreferencia" translatable="false">No logramos georreferenciarte luego de superar el maximo de intentos. Chequea si tienes el GPS encendido o contacta con un administrador.</string>
+
+    <!-- F -->
+    <string name="Fecha">Fecha</string>
+    <string name="Finalizar_dia_etiqueta">Finalizar día</string>
+    <!-- G -->
+    <string name="Grupo_economico">Grupo economico</string>
+    <string name="G_txt_cambiolocal" translatable="false">El cliente local se modifico correctamente</string>
+    <string name="G_txt_cambiolocal_guardado" translatable="false">Guardado exitoso</string>
+    <string name="G_txt_imgGuard" translatable="false">Imagen guardada</string>
+
+    <string name="Gasto_ingresado">Gasto ingresado</string>
+    <string name="geofencingChannelId" translatable="false">333</string>
+    <!-- H -->
+    <string name="Hasta">Hasta</string>
+    <!-- I -->
+    <string name="important_label">Importante</string>
+    <string name="Información">Información</string>
+    <string name="Importe_total">Importe total</string>
+    <string name="Importe_neto">Importe neto</string>
+    <string name="Ingrese_comentario">Ingrese comentario</string>
+    <string name="Ingresar_numero_de_pedido">Ingresar numero de pedido</string>
+    <string name="Iva_base">Iva base</string>
+    <string name="Iva_mínimo">Iva mínimo</string>
+    <!-- J -->
+    <!-- K -->
+    <!-- L -->
+    <string name="Latitud">Latitud</string>
+    <string name="Longitud">Longitud</string>
+    <string name="Localidad">Localidad</string>
+    <string name="Lista_de_precio">Lista de precio</string>
+    <string name="Lista_de_precio_alternativa">Lista de precio alternativa</string>
+    <string name="Locales_sin_actividad">Hay locales que no tuvieron actividad. Eliminelos de la ruta o ingrese motivo de no visita y no venta.</string>
+    <string name="Locales_sin_motivos">Hay locales en los que falta motivo de no vista, no venta o no cobranza.</string>
+    <string name="Local_con_pedidos">Este Local tiene pedidos.</string>
+    <string name="Locales" translatable="false">Locales</string>
+    <string name="Local">Local</string>
+    <!-- M -->
+    <string name="Marca" translatable="false">Marca</string>
+    <string name="Mail">Mail</string>
+    <string name="Mapa_etiqueta">Mapa</string>
+    <string name="Moneda">Moneda</string>
+    <string name="Marcados_en_rojo">Los mismos estan identificados en rojo.</string>
+    <string name="Marcados_en_azul">Los mismos estan identificados en azul.</string>
+    <!-- N -->
+    <string name="No">No</string>
+    <string name="Neto">Neto</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Nro_de_documento">Nro de documento</string>
+    <string name="Nuevo_Cliente_etiqueta">Nuevo cliente</string>
+    <string name="Nombre_cliente">Nombre cliente</string>
+    <string name="Nueva_version_disponible" translatable="false">Hay una nueva version de Preventa disponible, es necesario actualizar.</string>
+    <!-- O -->
+    <string name="Observaciones">Observaciones</string>
+    <string name="Obs." translatable="false">Obs.</string>
+    <string name="Ordenar_etiqueta">Ordenar</string>
+    <!-- P -->
+    <string name="Portafolio">Portafolio</string>
+    <string name="Producto">Producto</string>
+    <string name="Precio">Precio</string>
+    <string name="Precio2">Precio 2</string>
+    <string name="Precio_con_impuesto">Precio C/Impuesto</string>
+    <string name="Pedidos_con_error">Pedidos con error</string>
+    <string name="Pedidos_Pendientes">Pedidos Pendientes</string>
+    <string name="Pedidos_Sincronizados">Pedidos Sincronizados</string>
+    <string name="Pedidos_sin_sinc_o_en_curso">Hay pedidos sin sincronizar o en curso. Sincronice o eliminelos para poder continuar.</string>
+    <string name="Puede_no_haber_stock_suficiente">Puede no haber stock suficiente</string>
+    <string name="Politica">Pol.</string>
+    <!-- Q -->
+    <!-- R -->
+    <string name="Razón_social">Razón social</string>
+    <string name="Ramo">Ramo</string>
+    <string name="Re_apertura_dia">Desea continuar con la re apertura del dia?</string>
+    <string name="Re_Abrir_dia_etiqueta">Re-Abrir día</string>
+    <string name="RUT_CI" translatable="false">CI/RUT</string>
+    <string name="RUC" translatable="false">RUC</string>
+    <string name="Ruc_cliente">Ruc cliente</string>
+    <string name="RetenidoLimCredito" translatable="false">Este pedido va a quedar retenido por lìmite de crèdito</string>
+    <string name="RetenidoPorDeuda" translatable="false">Este pedido va a quedar retenido por deuda</string>
+
+    <!-- S -->
+    <string name="Stock">Stock</string>
+    <string name="Seleccione_un_tipo">Seleccione un tipo</string>
+    <string name="Seleccione_una_moneda">Seleccione una moneda</string>
+    <string name="Seleccione_Motivo_de_devolucion">Seleccione motivo de devolución</string>
+    <string name="SubTotal">SubTotal</string>
+    <string name="Supliendo_a">Supliendo a</string>
+    <string name="Sin_registro">Sin registro</string>
+    <string name="Si">Si</string>
+    <string name="Subir_Foto" translatable="false">Foto</string>
+
+    <!-- T -->
+    <string name="Telefono">Telefono</string>
+    <string name="Tipo">Tipo</string>
+    <string name="Tipo_de_Documento">Tipo de Documento</string>
+    <string name="Total">Total</string>
+    <string name="Totales">Totales</string>
+    <string name="Traza_actual">Traza actual</string>
+    <string name="texto_accerca_de">Somos un grupo de profesionales comprometidos con nuestros clientes, su satisfacción es nuestro caso de éxito. Trabajamos para crear un equipo confiable, que brinde atención personalizada a nuestros clientes; con el mayor nivel de servicio. Nos comprometemos en la entrega de soluciones en tiempo y forma.</string>
+    <!-- U -->
+    <string name="Ultima_sincronizacion_etiqueta">Ultima sincronización</string>
+    <string name="Unidad_de_medida">Unidad de medida</string>
+    <!-- V -->
+    <string name="Ver_detalles">Ver detalles</string>
+    <string name="Version_etiqueta">Versión</string>
+    <string name="Ver_bonificaciones">Ver bonificaciones</string>
+    <string name="Venta">Venta</string>
+    <!-- W -->
+    <!-- X -->
+    <!-- Y -->
+    <!-- Z -->
+    <!-- Fin: Strings de botones y etiquetas -->
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="toolbar_search" translatable="false"></string>
+    <string name="toolbar_settings" translatable="false">Configuracion</string>
+    <string name="toolbar_sync" translatable="false">Sincronizar</string>
+    <string name="toolbar_about" translatable="false">Acerca de</string>
+    <string name="txt_aceptar" translatable="false">Aceptar</string>
+    <string name="title_activity_login" translatable="false">Login</string>
+    <string name="btnActualizartxt" translatable="false">Actualizar</string>
+    <string name="btnCerrartxt" translatable="false">Cancelar</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in" translatable="false">Entrar</string>
+    <string name="action_sign_in_short" translatable="false">Login</string>
+    <string name="error_invalid_email" translatable="false">This email address is invalid</string>
+    <string name="error_invalid_password" translatable="false">This password is too short</string>
+    <string name="error_incorrect_password" translatable="false">This password is incorrect</string>
+    <string name="error_field_required" translatable="false">This field is required</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_tab_cambiar_ruta" translatable="false">TabCambiarRuta</string>
+    <string name="file_provider_authority" translatable="false">com.solidatec.pre_ventav2.fileprovider</string>
+    <string name="connect_exepction_mnsje_error" translatable="false">Hubo un error en la conexión. Por favor, vuelva a sincronizar.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="toolbar_cambiarambiente">Cambiar ambiente</string>
+    <string name="toolbar_cambiarpassword">Cambiar password</string>
+    <string name="toolbar_soporte">Soporte en linea</string>
+    <string name="toolbar_configuracion">Configuración</string>
+    <string name="Ingrese_orden_de_compra">Ingrese orden de compra</string>
+    <string name="Politica_Aplicada">Politica Aplicada</string>
+    <string name="observaciones" translatable="false">Observaciones</string>
+    <string name="InformesEnLinea">Informes en Línea</string>
+    <string name="moneda">Moneda</string>
+    <string name="buscar">Buscar</string>
+    <string name="txt_permiso_ubicacion">SD - Preventa requiere de tu permiso para acceder a la ubicación de tu dispositivo, los cuales serán necesarios para registrar la ubicacion durante la visita de los clientes.
+            \n\nPuedes hacerlo tocando "Permitir" cuando se te solicite o yendo a la configuración de tu dispositivo y habilitando los permisos de ubicación para nuestra aplicación.
+            \n\nSi tienes alguna pregunta o inquietud sobre cómo usamos tu información de ubicación, por favor revisa nuestra política de privacidad o contacta a nuestro equipo de soporte.</string>
+    <string name="txt_prominent_disclosure_background_location"><![CDATA[SD - Preventa recopila datos de ubicación para permitir la identificación de visitas de clientes de forma automática, incluso cuando la aplicación está cerrada o no está en uso.]]></string>
+    <string name="txt_ubicacion_segundo_plano_AndroidR"><![CDATA[<br/> Para que funcione de forma correcta dicha funcion es necesario habilitarlo.<br/><br/> Para ello, debemos dirigirnos a: <b>Configuración la Aplicacion > Permisos de la Aplicación > Ubicación > Permitir todo el tiempo</b><br />]]></string>
+    <string name="txt_ubicacion_segundo_plano_AndroidP"><![CDATA[<br/> Para que funcione de forma correcta dicha funcion es necesario habilitarlo.<br/><br/> Debe seleccionar la opción <b>\"Permitir todo el tiempo\"</b> ¿Desea habilitarlo?<br />]]></string>
+    <string name="txt_ubicacion_segundo_plano_AndroidO_MR1"><![CDATA[<br/> Se necesitan los permisos con modo de ubicación en <b>\"Precisión alta\"</b>.<br/><br/> Esto podría afectar el uso de la batería del dispositivo. ¿Desea habilitarlo?<br />]]></string>
+    <string name="support_email">soporte@solidatec.com</string>
+    <string name="subject_share_logs_msg">App PreVenta Logs</string>
+    <string name="close_tag">Cerrar</string>
+    <string name="seleccionar_tag">Seleccionar</string>
+    <string name="produccion_tag">Produccion</string>
+    <string name="preproduccion_tag">Preproduccion</string>
+    <string name="validacion_tag">Validacion</string>
+    <string name="categorias_clientes_label">Categorias Clientes</string>
+    <string name="canales_label">Canales</string>
+    <string name="bancos_sucursales_label">Bancos Sucursales</string>
+    <string name="bancos_label">Bancos</string>
+    <string name="categorias_label">Categorias</string>
+    <string name="ciclos_label">Ciclos</string>
+    <string name="vendedores_label">vendedores</string>
+    <string name="parametros_label">parametros</string>
+    <string name="clientes_label">clientes</string>
+    <string name="clientes_port_vendedores_label">Clientes Port Vendedores</string>
+    <string name="depositos_label">Depositos</string>
+    <string name="condicionesVenta_label">Condiciones Venta</string>
+    <string name="libretas_label">Libretas</string>
+    <string name="localidades_label">Localidades</string>
+    <string name="mediosDePago_label">Medios De Pago</string>
+    <string name="monedas_label">Monedas</string>
+    <string name="motivos_label">Motivos</string>
+    <string name="motivosDevoluciones_label">Motivos Devoluciones</string>
+    <string name="paises_label">Paises</string>
+    <string name="perfilesImpositivos_label">Perfiles Impositivos</string>
+    <string name="regiones_label">Regiones</string>
+    <string name="clientes_locales_label">Clientes Locales</string>
+    <string name="user_name_label">Usuario</string>
+    <string name="password_label">Contraseña</string>
+    <string name="version_label">Versión:</string>
+    <string name="week_label">Semana:</string>
+    <string name="finish_data_loading_msg">Finished loadind tables, closing dialogs...</string>
+    <string name="no_data_load_needed">Last sync is still valid no data load needed, closing loading dialog...</string>
+    <string name="authenticating_label">Autenticando...</string>
+    <string name="change_user_label">Cambiar usuario</string>
+    <string name="user_changed_label">Usuario cambiado correctamente</string>
+    <string name="stock_consultation_label">Consulta de Stock</string>
+    <string name="orders_consultation_label">Consulta de Pedidos</string>
+    <string name="day_orders_label">Pedidos del día</string>
+    <string name="clients_consultation_label">Consulta de Clientes</string>
+    <string name="lines_sales_label">Venta por Lineas</string>
+    <string name="products_sales_label">Venta por Productos</string>
+    <string name="routes_consultation_label">Consulta de Rutas</string>
+    <string name="wallet_sales_label">Venta de Cartera</string>
+    <string name="empty_products_tv">No hay productos</string>
+    <string name="filter_label">Filter</string>
+    <string name="products_filter">PV_PRODUCTOS_FILTRO_CATMARLIN</string>
+    <string name="todo_label">-Todos-</string>
+    <string name="categories_label">categories</string>
+    <string name="lineas_label">lineas</string>
+    <string name="marcas_label">marcas</string>
+    <string name="units_label">units_measure</string>
+    <string name="todos_label">-Todos-</string>
+    <string name="no_data">N/A</string>
+    <string name="suplency_label">Suplencia</string>
+    <string name="empty_clients_tv">No hay clientes para mostrar</string>
+    <string name="old_traza_msg">La Traza en uso no es actual, cierre el día para poder continuar con las operaciones.</string>
+    <string name="client_no_active_label">El cliente no esta activo y no puede realizar pedidos</string>
+    <string name="deuda_client_label">Deuda Cliente</string>
+    <string name="functionality_not_avalaible_label">Esta funcionalidad no esta disponible</string>
+    <string name="client_not_active_label">El cliente no esta activo</string>
+    <string name="no_payments_allowed_label">No puede realizar pagos porque no tiene libreta asignada</string>
+    <string name="functionalilty_not_avalible">Esta funcionalidad no esta disponible</string>
+    <string name="client_not_avalible">El cliente no esta activo y no puede realizar pagos</string>
+    <string name="no_currency_associated_to_client_credit_limit">No existe moneda asociada al limite de credito del cliente. Favor de comunicarse con su administrador.</string>
+    <string name="currency_label">monedas</string>
+    <string name="docs_label">documentos</string>
+    <string name="no_pedidos">No hay pedidos ingresados por el momento.</string>
+    <string name="cerrar_visita_msg">Para cerrar la visita del cliente, debe chequear que fue visitado o el motivo por el que no lo fue.</string>
+    <string name="pedidos_empty_msg">No hay pedidos disponibles por el momento</string>
+    <string name="empty_locales_mgs">No hay locales en la ruta del día</string>
+    <string name="empty_recibos_mgs">No hay recibos para mostrar</string>
+    <string name="productos_empty_msg">No hay productos para mostrar</string>
+    <string name="no_products">No hay productos para mostrar.</string>
+    <string name="no_allowed_decimal_use">Su empresa no tiene habilitado el uso de decimales, pongase en contacto con el administrador.</string>
+    <string name="explanation_selection_base_list">Se selecciona lista base porque existe política por período</string>
+    <string name="price_list_not_admit_discounts">La lista de precios no admite descuentos</string>
+    <string name="descuentosporcliente_label">DESCUENTOSPORCLIENTE</string>
+    <string name="btnAcepttxt">Continuar</string>
+    <string name="consultation_label">Consulta</string>
+    <string name="client_already_in_day_route">Cliente ya pertenece a la ruta del dia</string>
+    <string name="no_local_clients">No hay clientes para mostrar</string>
+    <string name="confirmation_label">¿Desea Agregarlo?</string>
+    <string name="confirmation_anulation_label">¿Confirma la Anulación?</string>
+    <string name="confirmation_delete_label">¿Desea Eliminarlo?</string>
+    <string name="success_client_creation">¡Cliente creado correctamente!</string>
+    <string name="pedido_has_added_products">El pedido tiene productos agregados</string>
+    <string name="delete_product_line">Producto del pedido</string>
+    <string name="inicio_label">Inicio</string>
+    <string name="fin_label">fin</string>
+    <string name="motivo_de_no_visita_label">Motivo de no visita:</string>
+    <string name="hubo_venta_label">¿Hubo venta?</string>
+    <string name="motivo_de_no_venta_label">Motivo de no venta:</string>
+    <string name="cant_documentos_label">Cant. documentos:</string>
+    <string name="observaciones_label">Observaciones:</string>
+    <string name="hubo_cobranza_label">¿Hubo cobranza?</string>
+    <string name="gps_inactive">El GPS del dispositivo esta no está activo. Por favor, activelo.</string>
+    <string name="location_off">Localización apagada</string>
+    <string name="turn_on_location_msg">Para el correcto funcionamiento de la app es necesario que la active.</string>
+    <string name="activate_label">Activar</string>
+    <string name="canceling_request">Cancelando pedido...</string>
+    <string name="empty_facturas_mgs">No hay facturas para mostrar</string>
+    <string name="generation_receipt">Generando recibo...</string>
+    <string name="sending_receipt">Enviando recibo...</string>
+    <string name="no_pedidos_to_show">No hay pedidos para mostrar</string>
+    <string name="ruc_cliente_label">Ruc cliente</string>
+    <string name="nombre_cliente_label">Nombre cliente</string>
+    <string name="totales_label">Totales</string>
+    <string name="id_linea_label">Id línea</string>
+    <string name="description_line_label">Descripción línea</string>
+    <string name="id_producto_label">Id producto</string>
+    <string name="description_product_label">Descripción producto</string>
+    <string name="venta_cartera_label">Venta por cartera</string>
+    <string name="recibo_pendientes_label">Recibos pendientes</string>
+    <string name="gastos_label">Gastos</string>
+    <string name="pedidos_facturados_label">Pedidos facturados</string>
+    <string name="clientes_no_visitados_label">Clientes No visitados</string>
+    <string name="lista_ofertas_label">Lista de Ofertas</string>
+    <string name="pdf_facturas_label">Pdf facturas</string>
+    <string name="informonline_val">informOnline</string>
+    <string name="downloading_file">Descargando documento...</string>
+    <string name="empty_documents_mgs">No hay documentos para mostrar</string>
+    <string name="no_internet_connection">Sin conexión a internet, por favor revise su red...</string>
+    <string name="no_historial_to_show">No hay historial para mostrar</string>
+    <string name="no_cobranza_to_show">No hay cobranzas para mostrar</string>
+    <string name="no_recibos_to_show">No hay recibos para mostrar</string>
+    <string name="downloading_files">Descargando historial...</string>
+    <string name="downloading_tables_data">Sincronizando tablas seleccionadas...</string>
+    <string name="creating_novedad">Creando novedad...</string>
+    <string name="no_novedades_to_show">No hay novedades para mostrar</string>
+    <string name="presentation_label">presentacion</string>
+    <string name="no_politicas_to_show">No hay politicas para mostrar</string>
+    <string name="seleccione_local_label">Seleccione local</string>
+    <string name="seleccione_categoria_label">Seleccione categoria</string>
+    <string name="enviando_fotos_al_ftp">Enviando Fotos al FTP...</string>
+    <string name="filtroimposible_label">filtroimposible</string>
+    <string name="facturados_label">Facturados</string>
+    <string name="anulados_label">Anulados</string>
+    <string name="no_photos_to_show">No hay fotos para mostrar</string>
+    <string name="obteniendo_fotos_label">Obteniendo fotos...</string>
+    <string name="visita_label">visita</string>
+    <string name="cobranza_label">cobranza</string>
+    <string name="pedido_label">pedidos</string>
+    <string name="fotos_label">fotos</string>
+    <string name="recibos_label">recibos</string>
+    <string name="historial_label">historial</string>
+    <string name="informacion_label">informacion</string>
+    <string name="indicadores_label">indicadores</string>
+    <string name="politicas_label">politicas</string>
+    <string name="guardando_los_cambios_label">Guardando los cambios...</string>
+    <string name="canceling_receipt">Cancelando recibo...</string>
+    <string name="este_recibo_ser_anulado_msg">Este recibo será anulado</string>
+    <string name="user_logged_successfully">¡Usuario logueado correctamente!</string>
+    <string name="seleccionar_label">Seleccionar</string>
+    <string name="nuevas_lineas_descargadas_no_hay_m_s_por_descargar">Nuevas lineas descargadas, no hay más por descargar</string>
+    <string name="nuevas_l_neas_agregadas_pueden_exisitir_mas">Nuevas líneas agregadas, pueden exisitir mas</string>
+    <string name="error_inesperado_al_descargar_l_neas">Error inesperado al descargar líneas</string>
+    <string name="no_hay_lineas_para_descargar">No hay lineas para descargar</string>
+    <string name="no_hay_nuevas_l_neas">No hay nuevas líneas</string>
+    <string name="cliente_inhabilitado_para_generar_un_pedido">Cliente inhabilitado para generar un pedido.</string>
+    <string name="downloading_pedidos_files">Descargando historial de pedidos...</string>
+    <string name="delete_client_from_route">El cliente será eliminado de la ruta del día.</string>
+    <string name="accept_btn_label">Confirmar</string>
+    <string name="no_gastos_to_show">No hay gastos para mostrar.</string>
+    <string name="confirm_logout_label">Los datos del usuario actual serán borrados.</string>
+    <string name="confirmation_action_label">¿Desea continuar?</string>
+    <string name="information_label">Información</string>
+    <string name="confirm_url_change_msg">Cambiar el ambiente eliminará todos los datos del usuario.</string>
+    <string name="turn_on_desired_filters">Active los filtros deseados</string>
+    <string name="rango_fecha_label">Rango Fecha</string>
+    <string name="tipo_documento_label">Tipo Documento</string>
+    <string name="estado_label">Estado</string>
+    <string name="estado_sync_label">Estado Sinc.</string>
+    <string name="all_types_doc_label">\'PS\',\'PO\',\'VC\'</string>
+    <string name="pedidos_label">Pedidos</string>
+    <string name="pedidos_types_doc_label">\'PS\',\'PO\'</string>
+    <string name="facturas_label">Facturas</string>
+    <string name="facturas_types_doc_label">\'VC\'</string>
+    <string name="doc_anulado_type_label">SP</string>
+    <string name="all_doc_sync_states">PEIS</string>
+    <string name="pendientes_label">Pendientes</string>
+    <string name="doc_pending_sync_states">PEI</string>
+    <string name="en_curso_label">En Curso</string>
+    <string name="doc_en_curso_sync_states">I</string>
+    <string name="error_label">Error</string>
+    <string name="doc_error_sync_states">E</string>
+    <string name="sincronizado_label">Sincronizado</string>
+    <string name="doc_sync_state">S</string>
+    <string name="aplicar_label">Aplicar</string>
+    <string name="empty_date_label">_/_/_ - _/_/_</string>
+    <string name="seleccionar_txt_label">Seleccionar</string>
+    <string name="device_out_off_reach">Dispositivo fuera de alcance</string>
+    <string name="user_have_no_printer_associated">El usuario no tiene Impresora vinculada</string>
+    <string name="modo_noche_label">Modo Noche</string>
+    <string name="no_posible_to_print_cobranza_label">No es posible imprimir cobranza con la impresora vinculada</string>
+    <string name="allow_app_bluetooth_use">Debe permitirle a la app el uso del bluetooth para que pueda conectarse a la impresora.</string>
+    <string name="valor_invalido">Valor inválido</string>
+    <string name="print_receipt_label">Imprimir recibo</string>
+    <string name="do_you_wish_to_print_the_receipt_label">¿ Desea imprimir el recibo ?</string>
+    <string name="nullify_request_label">¿ Anular pedido ?</string>
+    <string name="continue_label">Continuar</string>
+    <string name="anulate_label">Anular</string>
+    <string name="set_new_location_explanation_label">1- Toque donde quiera asignar la nueva localizacion\n2-Oprima el boton de guardado.</string>
+    <string name="do_you_wish_to_delete_discount_label">¿ Elimina este descuento ?</string>
+    <string name="delete_label">Eliminar</string>
+    <string name="understood_label">Entendido</string>
+    <string name="confirm_delete_spend_label">¿Elimina este Gasto?</string>
+    <string name="confirmation_btn_label">Confirmar</string>
+    <string name="do_you_wish_to_continue_with_the_product_entry_label">¿Continua con el ingreso de producto?</string>
+    <string name="client_overpassing_credit_label">Este cliente está superando su disponible de crédito.</string>
+    <string name="confirm_day_reopen_label">Seguro que desea volver a iniciar el día?</string>
+    <string name="less_than_five_number_in_notebook_remaining_label">Quedan menos de 5 números en esta libreta</string>
+    <string name="precios">Precios</string>
+    <string name="ingreso_de_cobranza">Ingreso de cobranza</string>
+    <string name="Informacion_visita">Información de visita</string>
+    <string name="recibos">Recibos</string>
+    <string name="PedidosDelDiaPorClientes">Pedidos del día clientes</string>
+    <string name="PedidosDelDiaPedidos">Pedidos del dia</string>
+    <string name="venta_por_linea">Venta por linea</string>
+    <string name="pedidos_sin_sincronizar">Pedidos sin sincronizar</string>
+    <string name="Politicas_Aplicada">Politicas Aplicadas</string>
+    <string name="cambiar_geolocalizaci_n">Cambiar Geolocalización</string>
+    <string name="consulta_de_ruta">Consulta de Ruta</string>
+    <string name="indicadores">Indicadores</string>
+    <string name="galery">Galería</string>
+    <string name="agregar_gasto">Agregar Gasto</string>
+    <string name="opciones">Opciones</string>
+    <string name="current_password_label">Contraseña actual</string>
+    <string name="new_password_label">Nueva contraseña</string>
+    <string name="confirm_new_password_label">Confirmar nueva contraseña</string>
+    <string name="field_can_not_be_empty_label">El campo no puede estar vacio</string>
+    <string name="fields_does_not_match_label">Los campos no coinciden</string>
+    <string name="password_does_not_match_label">Contraseña incorrecta</string>
+    <string name="modify_label">modificar</string>
+    <string name="cambiar_password_label">Cambiar password [*****]</string>
+    <string name="error_new_pass_is_null">Ha ocurrido un error, el valor de la nueva contraseña esta llegando nulo</string>
+    <string name="change_password_attempt_label">Intentando cambiar contraseña...</string>
+    <string name="password_changed_correctly_label">Contraseña cambiada correctamente</string>
+    <string name="error_occurred_label">Ha ocurrido un error</string>
+    <string name="error_happen_changing_user_pass_label">"Ha ocurrido un error cambiando la contraseña del usuario, descripción del error: "</string>
+    <string name="sync_on_demand_label">Sincronización a demanda</string>
+    <string name="delete_client_from_route_functionality_is_disable_label">Funcionalidad eliminar cliente de ruta está deshabilitada</string>
+    <string name="sending_pending_data">Enviando los datos pendientes...</string>
+    <string name="do_you_wish_to_sync_data_label">Dispositivo con internet, ¿desea sincronizar los datos pendientes?</string>
+    <string name="sync_data_reminder">Recordatorio de sincronizar información, cuando el dispositivo tenga internet.</string>
+    <string name="data_sync_correctly_label">Datos sincronizados correctamente!</string>
+    <string name="no_banks_label">No Hay Bancos</string>
+    <string name="no_bank_places_label">No Hay Sucursales del Banco</string>
+    <string name="put_in_checks_numbers_label">Ingrese número de cheque</string>
+    <string name="invalid_RUT">RUT invalido</string>
+    <string name="enter_payment">Ingrese un pago</string>
+    <string name="put_in_account_number_label">Ingrese número de cuenta</string>
+    <string name="invalid_date_label">Fecha no válida</string>
+    <string name="select_currency_label">Seleccione Moneda</string>
+    <string name="error_converti_import_label">Ocurrió un error al convertir importe:</string>
+    <string name="check_number_label">Número del cheque</string>
+    <string name="value_to_pay_must_be_positive_label">El valor a pagar debe ser positivo</string>
+    <string name="no_name_label">No tiene nombre</string>
+    <string name="tutorial_main_frag_cards_info_label">En estas tarjetas podrás ver información pertinente al usuario y a la sesión actual.</string>
+    <string name="tutorial_main_frag_finalizeday_btn_label">Este botón finaliza el día. Finalizar el día da por terminado el trabajo del día y envía la información pendiente al servidor.</string>
+    <string name="tutorial_main_frag_welcome_msg_label">Esta es la pantalla de inicio de la aplicación, este es el punto de partida, desde aquí podrás navegar a todas las otras pantallas.</string>
+    <string name="tutorial_main_frag_welcome_msg_title_label">¡Bienvenido a Preventa!</string>
+    <string name="step_1_of_2">Paso 1/2</string>
+    <string name="step_2_of_2">Paso 2/2</string>
+    <string name="step_1_of_5">Paso 1/5</string>
+    <string name="tutorial_main_act_reports_section_label">Esta seccción es la de los REPORTES, desde aqui podrás navegar a los distintos reportes e informes que brinda la app.</string>
+    <string name="step_2_of_5">Paso 2/5</string>
+    <string name="step_3_of_5">Paso 3/5</string>
+    <string name="step_4_of_5">Paso 4/5</string>
+    <string name="step_5_of_5">Paso 5/5</string>
+    <string name="tutorial_main_act_sells_section_label">En la sección de VENTAS tendrá acceso a las diferentes pantallas asociadas a los procesos de venta de mercancía mediante la app.</string>
+    <string name="tutorial_main_act_extras_section_label">La sección de EXTRAS le permite acceder a las fotos tomadas, los mensajes y las opciones disponibles en la app.</string>
+    <string name="tutorial_main_act_sync_section_label">Desde SINCRONIZACIÓN podrá SINCRONIZAR todos los datas nuevos que existan en el servidor o SINCRONIZAR A DEMANDA alguna tabla especifica sin importar si contiene datos nuevos o no.</string>
+    <string name="tutorial_main_act_session_section_label">La sección SESÍON le permite ENVIAR el LOG de la aplicación para ayudar a los desarrolladores a identificar la razón de algún posible error y CERRAR SESIÓn en caso que desea cambiar de usuario o de ambiente.</string>
+    <string name="tutorial_main_navigation_menu_title_label">Este es el menú de navegación</string>
+    <string name="tutorial_main_act_navigation_menu_label">Desde este menú podrás navegar por todas las pantallas de la aplicación.</string>
+    <string name="changes_repors_tutorial_label">Reporte de cambios</string>
+    <string name="tutorial_main_act_changes_repors_label">Si presionas en el logo de SOLIDA, podrás acceder a un listado de los cambios realizados en la aplicación a lo largo de las distintas versiones.</string>
+    <string name="you_must_add_a_devolution_motive_label">Debe agregar un motivo de devolución</string>
+    <string name="must_enter_valid_quantity_label">"Debe ingresar una CANTIDAD válida "</string>
+    <string name="price_with_discount_minor_than_cost_label">El precio con descuentos del producto es menor a su costo.</string>
+    <string name="tutorial_steps">Tutorial paso a paso</string>
+    <string name="downloaded_doc_label">Documento descargado</string>
+    <string name="error_downloading_file_label">Ha ocurrido un error al descargar el archivo:</string>
+    <string name="order_stored_correctly_label">Pedido almacenado correctamente</string>
+    <string name="error_occurred_try_again_label">Ha ocurrido un error, por favor espere unos segundos e intente sincronizar la información nuevamente.\nSi el error persiste, por favor comuniquese con soporte.</string>
+    <string name="device_and_server_differ_in_more_than_one_hour_label">Ha ocurrido un error en la sincronización. El dispositivo y el servidor difieren en más de una hora.</string>
+    <string name="connectivity_error_msg_label">Ha ocurrido un error de conectividad, por favor revise su conexión a internet e intentelo nuevamente.\nSi el error persiste, por favor comuniquese con soporte.</string>
+    <string name="stablishing_connection_label">Conectando con la impresora...</string>
+    <string name="deliver_date_can_not_be_before_today_label">La fecha de entrega del pedido no puede ser anterior a la fecha actual.</string>
+    <string name="missing_params_labels">Parámetros faltantes</string>
+    <string name="can_complete_creation_for_missing_params_label">No es posible completar la creación del nuevo cliente porque existen uno o más parámetros faltantes, debe definirse un valor por defecto para los siguientes parametros:\n</string>
+    <string name="creating_local_client_label">Creando cliente local...</string>
+    <string name="warning_convertion_factor_is_zero_label">Cuidado: Factor de Conversión = 0, se toma valor 1</string>
+    <string name="error_in_document_type_label">"Error tipo de documento es nulo, docId: "</string>
+    <string name="error_in_prodId_label">Error cargando producto, prodId esta vacio.</string>
+    <string name="unit_missing_for_product_label">Faltan unidades de medida para este producto.</string>
+    <string name="no_lines_to_show">No hay lineas para mostrar</string>
+    <string name="request_deleted_correctly_label">Pedido eliminado correctamente</string>
+    <string name="error_deleting_request_label">Error eliminando Pedido</string>
+    <string name="no_prod_uni_med_for_scanned_prod_label">No existe prodUniMed para el producto escaneado</string>
+    <string name="sending_pending_requests_label">Enviando pedidos pendientes...</string>
+    <string name="pics_sended_label">Imagenes enviadas!</string>
+    <string name="incomplete_order_label">Pedido incompleto</string>
+    <string name="missing_lines_for_request_label">Este pedido duplicado no contiene todos los productos del pedido original, los productos faltantes son los siguientes:\n</string>
+    <string name="duplicating_request_label">Duplicando pedido...</string>
+    <string name="can_input_disccounts_bigger_than_hundred_percent_label">No se pueden digitar descuentos mayores a 100%.</string>
+    <string name="no_value_in_qunatity_field_label">No ingreso ningun valor en el campo \'Cantidad\'.</string>
+    <string name="politic_applied_label">Descuento de cabezal aplicado</string>
+    <string name="order_retained_for_credit_limit_label">Retenido por límite de crédito</string>
+    <string name="order_retained_by_debt_label">Retenido por deuda</string>
+    <string name="must_select_at_least_one_table_to_sync_label">Debe seleccionar al menos una tabla para sincronizar</string>
+    <string name="device_without_internet_connection_label">Dispositivo sin conexión a internet</string>
+    <string name="must_select_at_least_one_photo_label">Debe seleccionar al menos una foto</string>
+    <string name="day_ended_correctly_label">Día finalizado correctamente</string>
+    <string name="no_currency_label">No es posible crear el pedido, no existe una moneda para asociar.</string>
+    <string name="sending_pending_photos_to_ftp_label">Enviando fotos pendientes al FTP...</string>
+    <string name="creating_data_package_label">Creando el paquete de datos para compartir...</string>
+    <string name="delete_pago_label">Pago del recibo</string>
+    <string name="no_starred_products_label">Desactivando filtro porque no hay productos para mostrar.</string>
+    <string name="autofocus_search_icon_label">Enfocar cuadro de búsqueda automáticamente</string>
+    <string name="no_more_than_one_value_for_receipt_label">No se permite agregar más de un valor por recibo.</string>
+    <string name="error_description_label">Descripción del error</string>
+    <string name="session_expired">La sesión ha expirado, por favor vuelva a loguearse.</string>
+    <string name="digit_price_label">Precio Digitado</string>
+    <string name="terminos_y_condiciones">Términos y condiciones</string>
+    <string name="terminos_y_condiciones_url">https://solidatec.com//sdmobile_privacypolicy.html</string>
+    <string name="cadena">Cadena</string>
+    <string name="tipo_de_cliente">Tipo de Cliente</string>
+    <string name="segmentacion">Segmentacion</string>
+    <string name="offline_mode">Trabajar sin conexión</string>
+    <string name="offline_work_enabled">Modo sin conexión activado</string>
+    <string name="offline_work_disabled">"Modo sin conexión desactivado "</string>
+    <string name="data_could_not_be_synced_label">No fue posible sincronzar los datos pendientes.</string>
+    <string name="explanation_bad_connection_msg">La conexión a internet es de mala calidad, la app cambiará a modo sin conexión para garantizar un correcto funcionamiento. Una vez la conexión sea estable, podrá desactivar el modo sin conexión en las opciones de la app.</string>
+    <string name="request_sent_correctly_label">Pedido eviado correctamente.</string>
+    <string name="could_sent_request_label">No fue posible enviar los datos al servidor, se volverá a intentar enviarlos más adelante</string>
+    <string name="creating_request_label">Preparando pedido...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_pedidos_productos_tab">PedidosProductosTab</string>
+    -->
+
+    <string name="ftp_user" translatable="false">root</string>
+    <string name="ftp_pass_low_enviroments" translatable="false">S0l1daRet3st!</string>
+    <string name="ftp_pass_high_enviroments" translatable="false">S0l1daRePr0!</string>
+    <string name="Archivos" translatable="false">Archivos</string>
+    <string name="devolution_motive_requires_photo_label">El motivo de devolución seleccionado debe ser acompañado de imágenes.</string>
+    <string name="take_picture_label">CÁMARA</string>
+    <string name="open_from_gallery_label">GALERÍA</string>
+    <string name="error_sending_pics_label">Error enviando imágenes</string>
+    <string name="was_not_possible_to_send_pics_label">No fue posible enviar las imágenes al servidor</string>
+    <string name="you_must_add_a_photo_to_the_document_label">El motivo de devolución seleccionado requiere al menos una foto.</string>
+    <string name="resumen_del_d_a">Resumen del día</string>
+    <string name="repartos">Repartos</string>
+    <string name="cobranza_del_d_a">Cobranza del día</string>
+    <string name="bandeja_de_salida">Bandeja de salida</string>
+    <string name="inicio">Inicio</string>
+    <string name="sincronizar">Sincronizar</string>
+    <string name="sincronizar_a_demanda">Sincronizar a demanda</string>
+    <string name="enviar_log">Enviar log</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="salida">Salida</string>
+    <string name="entrada">Entrada</string>
+    <string name="estado_del_reparto">Estado del Reparto:</string>
+    <string name="boton_info_del_reparto_label_finalizar" translatable="false">Finalizar</string>
+    <string name="boton_info_del_reparto_label_entregar" translatable="false">Entregar</string>
+    <string name="sending_pending_photos_to_server_label" translatable="false">Enviando fotos pendientes al servidor...</string>
+    <string name="enviando_fotos_al_servidor" translatable="false">Enviando Fotos al servidor...</string>
+    <string name="device_without_internet_tried_to_sync" translatable="false">Las imágenes se guardaron con éxito en el dispositivo, se sincronizarán con la base de datos al recuperar la conexión a internet.</string>
+    <string name="account_saving_error" translatable="false">Hubo un error al guardar el numero de cuenta</string>
+    <string name="enter_account_number" translatable="false">Ingrese Nro de cuenta</string>
+    <string name="sap_cargando" translatable="false">cargando...</string>
+    <string name="ingrese_emisor" translatable="false">Ingrese Emisor</string>
+    <string name="selecciona_banco_sucursal" translatable="false">Seleccione banco y sucursal</string>
+    <string name="banco" translatable="false">Banco</string>
+    <string name="sucursal" translatable="false">Sucursal</string>
+    <string name="ingrese_el_usuario_asociado_a_la_cuenta">Ingrese el Usuario asociado a la cuenta:</string>
+    <string name="ingrese_el_mail_asociado_a_la_cuenta">Ingrese el Mail asociado a la cuenta:</string>
+    <string name="ingrese_su_mail">Ingrese su mail</string>
+    <string name="enviar">Enviar</string>
+    <string name="ingrese_su_usuario">Ingrese su usuario</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nou_internet_conection">"No hay conexion a internet :("</string>
+    <string name="fields_cant_be_empty">"Todos los campos deben estar completos"</string>
+    <string name="monto_minimo_error_pedido" translatable="false">El pedido no supera el monto mínimo que es %1$s</string>
+    <string name="monto_minimo_error_pedido_puede_continuar" translatable="false">El pedido no supera el monto mínimo que es %1$s.\nDesea continuar?</string>
+    <string name="monto_minimo_error_retenido_puede_continuar" translatable="false">El pedido no supera el monto mínimo que es %1$s, por lo tanto será retenido.\nDesea continuar?</string>
+
+
+    <string name="valido_desde">Valido desde:</string>
+    <string name="valido_hasta">Valido hasta:</string>
+    <string name="detalle_tareas">Detalle de la tareas</string>
+    <string name="tareas">Tareas</string>
+    <string name="tareas_obligatorias">Tareas obligatorias</string>
+    <string name="tareas_del_dia">Tareas del dia</string>
+    <string name="tareas_finalizadas">Tareas finalizadas</string>
+
+
+
+</resources>

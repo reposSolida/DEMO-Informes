@@ -1,0 +1,258 @@
+<resources>
+    <string name="app_name" translatable="false">DEMO</string>
+
+    <string name="no_internet">Sin conexion a internet</string>
+
+    <string name="sincronizando">Sincronizando</string>
+
+    <!-- Inicio: Strings de titulos de Fragments -->
+    <string name="Cheques">Cheques</string>
+    <string name="Pagos">Pagos</string>
+    <string name="Seleccione_empresa">Seleccione empresa</string>
+    <string name="Visita_Cliente">Visita Cliente</string>
+    <string name="Acerca_de">Acerca de</string>
+    <string name="Pedidos">Pedidos</string>
+    <string name="Productos">Productos</string>
+    <string name="Pedido_Nuevo">Pedido Nuevo</string>
+    <string name="Pedido">Pedido</string>
+    <string name="Cambiar_Ruta">Cambiar Ruta</string>
+    <string name="Seleccionar_Local">Seleccionar Local</string>
+    <string name="Clientes">Clientes</string>
+    <string name="Carrito">Carrito</string>
+    <string name="SeleccionarFactura">Seleccionar Factura</string>
+    <string name="PagarFactura">Pagar</string>
+    <string name="DatosPago">Datos Pago</string>
+    <string name="CantidadProducto">Cantidad Producto</string>
+    <string name="Formularios">Formularios</string>
+    <string name="VistadeFormularios">Vista de Formularios</string>
+    <string name="RutaDelDia">Ruta del día</string>
+    <string name="InfoCliente">Información de cliente</string>
+    <string name="InfoVisita">Información de visita</string>
+    <string name="InfoProductos">Información de producto</string>
+    <string name="PedSinSinc">Pedidos sin sincronizar</string>
+    <string name="ConsultaDeStock">Consulta de stock</string>
+    <string name="ConsultaDePedidos">Consulta de pedidos</string>
+    <string name="Informes">Informes</string>
+    <string name="PedidosDelDia">Pedidos del dia</string>
+    <string name="Promociones">Promociones</string>
+    <string name="CambiarPassword" translatable="false">Cambiar Password</string>
+    <string name="AltaLocales">Alta de Locales</string>
+    <string name="AltaClientes">Alta de Clientes</string>
+    <string name="SeleccionarCliente">Seleccionar Cliente</string>
+    <string name="Descuentos_de_productos">Descuentos de productos</string>
+    <string name="Historial">Historial</string>
+    <string name="Recibos">Recibos</string>
+    <string name="cobranza_del_dia">Cobranza del día</string>
+    <string name="rutas">Rutas</string>
+    <string name="gastos">Gastos</string>
+    <string name="Fotos_Pendientes">Fotos Pendientes</string>
+    <string name="Novedades">Novedades</string>
+    <!-- Fin: Strings de titulos de Fragments -->
+
+    <!-- Inicio: Strings de botones y etiquetas -->
+    <!-- A -->
+    <string name="Agregar_etiqueta">Agregar</string>
+    <string name="Agregar_productos">Agregar productos</string>
+    <string name="Alerta_GPS">Active el GPS de su celular!</string>
+    <string name="Alerta_cotizacion">Faltan cotizaciones.</string>
+    <string name="Aplicar">Aplicar</string>
+    <!-- B -->
+    <string name="Barrio">Barrio</string>
+    <string name="Borrar_filtros">Borrar filtros</string>
+    <string name="Bruto">Bruto</string>
+    <!-- C -->
+    <string name="Canal">Canal</string>
+    <string name="Sub_Canal">Sub-Canal</string>
+    <string name="Celular">Celular</string>
+    <string name="Categoria">Categoría</string>
+    <string name="Categoria2">Categoría :</string>
+    <string name="Codigo">Codigo</string>
+    <string name="Codigo2">Codigo :</string>
+    <string name="Cod_Corp">Cod. Corp :</string>
+    <string name="Contacto">Contacto</string>
+    <string name="Contacto_local">Contacto local</string>
+    <string name="Cantidad">Cantidad</string>
+    <string name="Campo_obligatorio">Campo obligatorio</string>
+    <string name="Clientes_etiqueta">Clientes:</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="day_close_label">El cierre de dia impedira el ingreso de nuevos pedidos.</string>
+    <string name="Confirmar">Confirmar</string>
+    <string name="Confirmar_pedido">Confirmar pedido</string>
+    <string name="Cliente_gabrado_automaticamente">Cliente gabrado automaticamente</string>
+    <string name="Cant._Clientes">Cant. Clientes</string>
+    <string name="Cant._Pedidos">Cant. Pedidos</string>
+    <string name="Condicion_de_venta">Condicion de venta</string>
+    <string name="Codigo_barra">Codigo de barra :</string>
+    <string name="Cobranza">Cobranza</string>
+    <!-- D -->
+    <string name="Datos_personales">Datos personales</string>
+    <string name="do_you_wish_to_continue_label">Desea continuar?</string>
+    <string name="Debe_seleccionar_Tipo_de_Documento">Debe seleccionar Tipo de Documento</string>
+    <string name="Desde">Desde</string>
+    <string name="Dirección">Dirección</string>
+    <string name="Documento">Documento</string>
+    <string name="Dia_Visita">Dia de visita</string>
+    <!-- E -->
+    <string name="Editar">Editar</string>
+    <string name="Elimina_esta_foto">¿ Elimina esta foto ?</string>
+    <string name="Estado">Estado</string>
+    <string name="Estado_Sinc.">Estado Sinc.</string>
+    <string name="El_total_no_coincide_con_los_valores">El total no coincide con los valores</string>
+    <string name="Elimina_este_local">¿ Elimina este local ?</string>
+    <!-- F -->
+    <string name="Fecha">Fecha</string>
+    <string name="Finalizar_dia_etiqueta">Finalizar día</string>
+    <!-- G -->
+    <string name="Grupo_economico">Grupo economico</string>
+    <string name="G_txt_cambiolocal" translatable="false">El cliente local se modifico correctamente</string>
+    <string name="G_txt_cambiolocal_guardado" translatable="false">Guardado exitoso</string>
+    <string name="Gasto_ingresado">Gasto ingresado</string>
+    <!-- H -->
+    <string name="Hasta">Hasta</string>
+    <!-- I -->
+    <string name="important_label">Importante</string>
+    <string name="Información">Información</string>
+    <string name="Importe_total">Importe total</string>
+    <string name="Importe_neto">Importe neto</string>
+    <string name="Ingrese_comentario">Ingrese comentario</string>
+    <string name="Ingresar_numero_de_pedido">Ingresar numero de pedido</string>
+    <string name="Iva_base">Iva base</string>
+    <string name="Iva_mínimo">Iva mínimo</string>
+    <!-- J -->
+    <!-- K -->
+    <!-- L -->
+    <string name="Latitud">Latitud</string>
+    <string name="Longitud">Longitud</string>
+    <string name="Localidad">Localidad</string>
+    <string name="Lista_de_precio">Lista de precio</string>
+    <string name="Lista_de_precio_alternativa">Lista de precio alternativa</string>
+    <string name="Locales_sin_actividad">Hay locales que no tuvieron actividad. Eliminelos de la ruta o ingrese motivo de no visita y no venta.</string>
+    <string name="Locales_sin_motivos">Hay locales en los que falta motivo de no vista, no venta o no cobranza.</string>
+    <string name="Local_con_pedidos">Este Local tiene pedidos.</string>
+    <string name="Locales" translatable="false">Locales</string>
+    <string name="Local">Local</string>
+    <!-- M -->
+    <string name="Marca" translatable="false">Marca</string>
+    <string name="Marca2" translatable="false">Marca :</string>
+    <string name="Mail">Mail</string>
+    <string name="Mapa_etiqueta">Mapa</string>
+    <string name="Moneda">Moneda</string>
+    <string name="Marcados_en_rojo">Los mismos estan identificados en rojo.</string>
+    <string name="Marcados_en_azul">Los mismos estan identificados en azul.</string>
+    <!-- N -->
+    <string name="No">No</string>
+    <string name="Neto">Neto</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Nro_de_documento">Nro de documento</string>
+    <string name="Nuevo_Cliente_etiqueta">Nuevo cliente</string>
+    <string name="Nombre_cliente">Nombre cliente</string>
+    <!-- O -->
+    <string name="Observaciones">Observaciones</string>
+    <string name="Obs." translatable="false">Obs.</string>
+    <string name="Obs.2" translatable="false">Obs. :</string>
+    <string name="Ordenar_etiqueta">Ordenar</string>
+    <!-- P -->
+    <string name="Portafolio">Portafolio</string>
+    <string name="Portafolio2">Portafolio :</string>
+    <string name="Producto">Producto</string>
+    <string name="Producto2">Producto :</string>
+    <string name="Precio">Precio</string>
+    <string name="Precio2">Precio 2</string>
+    <string name="Precio3">Precio :</string>
+    <string name="Precio4">Precio 2 :</string>
+    <string name="Precio_con_impuesto">Precio C/Impuesto</string>
+    <string name="Pedidos_con_error">Pedidos con error</string>
+    <string name="Pedidos_Pendientes">Pedidos Pendientes</string>
+    <string name="Pedidos_Sincronizados">Pedidos Sincronizados</string>
+    <string name="Pedidos_sin_sinc_o_en_curso">Hay pedidos sin sincronizar o en curso. Sincronice o eliminelos para poder continuar.</string>
+    <string name="Puede_no_haber_stock_suficiente">Puede no haber stock suficiente</string>
+    <string name="Politica">Pol.</string>
+    <!-- Q -->
+    <!-- R -->
+    <string name="Razón_social">Razón social</string>
+    <string name="Ramo">Ramo</string>
+    <string name="Re_apertura_dia">Desea continuar con la re apertura del dia?</string>
+    <string name="Re_Abrir_dia_etiqueta">Re-Abrir día</string>
+    <string name="RUT_CI">CI/RUT</string>
+    <string name="RUC">RUC</string>
+    <string name="Ruc_cliente">Ruc cliente</string>
+    <!-- S -->
+    <string name="Stock">Stock</string>
+    <string name="Stock2">Stock :</string>
+    <string name="Seleccione_un_tipo">Seleccione un tipo</string>
+    <string name="Seleccione_una_moneda">Seleccione una moneda</string>
+    <string name="Seleccione_Motivo_de_devolucion">Seleccione motivo de devolución</string>
+    <string name="SubTotal">SubTotal</string>
+    <string name="Supliendo_a">Supliendo a</string>
+    <string name="Sin_registro">Sin registro</string>
+    <string name="Si">Si</string>
+    <string name="Subir_Foto">Foto</string>
+    <!-- T -->
+    <string name="Telefono">Telefono</string>
+    <string name="Tipo">Tipo</string>
+    <string name="Tipo_de_Documento">Tipo de Documento</string>
+    <string name="Total">Total</string>
+    <string name="Totales">Totales</string>
+    <string name="Traza_actual">Traza actual</string>
+    <string name="texto_accerca_de">Somos un grupo de profesionales comprometidos con nuestros clientes, su satisfacción es nuestro caso de éxito. Trabajamos para crear un equipo confiable, que brinde atención personalizada a nuestros clientes; con el mayor nivel de servicio. Nos comprometemos en la entrega de soluciones en tiempo y forma.</string>
+    <!-- U -->
+    <string name="Ultima_sincronizacion_etiqueta">Ultima sincronización</string>
+    <string name="Unidad_de_medida">Unidad de medida</string>
+    <string name="Unidad_de_medida2">Unidad de medida :</string>
+    <string name="Unidad_por_caja">Unidades :</string>
+
+    <!-- V -->
+    <string name="Ver_detalles">Ver detalles</string>
+    <string name="Version_etiqueta">Versión</string>
+    <string name="Ver_bonificaciones">Ver bonificaciones</string>
+    <string name="Venta">Venta</string>
+    <!-- W -->
+    <!-- X -->
+    <!-- Y -->
+    <!-- Z -->
+    <!-- Fin: Strings de botones y etiquetas -->
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="toolbar_search" translatable="false"></string>
+    <string name="toolbar_settings" translatable="false">Configuracion</string>
+    <string name="toolbar_sync" translatable="false">Sincronizar</string>
+    <string name="toolbar_about" translatable="false">Acerca de</string>
+    <string name="txt_aceptar" translatable="false">Aceptar</string>
+    <string name="title_activity_login" translatable="false">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in" translatable="false">Entrar</string>
+    <string name="action_sign_in_short" translatable="false">Login</string>
+    <string name="error_invalid_email" translatable="false">This email address is invalid</string>
+    <string name="error_invalid_password" translatable="false">This password is too short</string>
+    <string name="error_incorrect_password" translatable="false">This password is incorrect</string>
+    <string name="error_field_required" translatable="false">This field is required</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_tab_cambiar_ruta" translatable="false">TabCambiarRuta</string>
+    <string name="file_provider_authority" translatable="false">com.solidatec.pre_ventav2_vct.fileprovider</string>
+    <string name="connect_exepction_mnsje_error" translatable="false">Hubo un error en la conexión. Por favor, vuelva a sincronizar.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="toolbar_cambiarambiente">Cambiar ambiente</string>
+    <string name="toolbar_cambiarpassword">Cambiar password</string>
+    <string name="toolbar_soporte">Soporte en linea</string>
+    <string name="toolbar_configuracion">Configuración</string>
+    <string name="Ingrese_orden_de_compra">Ingrese orden de compra</string>
+    <string name="Politica_Aplicada">Politica Aplicada</string>
+    <string name="cadena">Cadena</string>
+    <string name="tipo_de_cliente">Tipo de Cliente</string>
+    <string name="segmentacion">Segmentacion</string>string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_pedidos_productos_tab">PedidosProductosTab</string>
+    -->
+
+</resources>
