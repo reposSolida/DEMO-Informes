@@ -11,7 +11,8 @@ class MainActivity : AppCompatActivity() {
 
         enableEdgeToEdge()
         setContent {
-            InformesView()
+           // InformesView()
+            Tabla()
         }
     }
 }
