@@ -27,7 +27,8 @@ data class ItemDetalle(
     val meta: String,
     val llegada: String,
     val sm: String,
-    val estaExpandido: Boolean = false
+    val estaExpandido: Boolean = false,
+    val seMostraronProductos: Boolean = false
 ): Items
 
 val itemsTabla = mutableListOf(

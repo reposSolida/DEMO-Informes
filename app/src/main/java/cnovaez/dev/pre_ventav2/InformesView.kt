@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.layout.wrapContentSize
+import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyHorizontalGrid
@@ -77,7 +78,7 @@ fun InformesView(
             item {
 
                 Titulo("Efectividad de Surtido Mandatorio")
-                TareaInfoCard()
+                //TareaInfoCard()
 
                 Titulo("Avance del Mes")
                 CircularProgressBar("Ejemplo ", 65f)
@@ -96,27 +97,27 @@ fun InformesView(
                         "Cerveza",
                         "Spirits",
                         "Total",
-                        "Venta DHA $",
+                        /*"Venta DHA $",
                         "$225.753",
                         "$28.212",
                         "$503.735",
                         "$787.284",
                         "$117.858",
-                        "$1.662.842",
-                        "Venta Necesaria DHA",
+                        "$1.662.842", */
+                        /*"Venta Necesaria DHA",
                         "$761.223",
                         "$89.192",
                         "$580.875",
                         "$682.002",
                         "$88.429",
-                        "$2.201.720",
-                        "%",
+                        "$2.201.720", */
+                        /*"%",
                         "30 %",
                         "32 %",
                         "87 %",
                         "115 %",
                         "133 %",
-                        "76 %",
+                        "76 %", */
                         "Meta Concr. (DHA)",
                         "4",
                         "1",
@@ -131,13 +132,13 @@ fun InformesView(
                         "11",
                         "5",
                         "12",
-                        "% Cumpl.",
-                        "150 %",
-                        "100 %",
-                        "133 %",
-                        "275 %",
-                        "250 %",
-                        "200 %"
+                       // "% Cumpl.",
+                      //  "150 %",
+                      //  "100 %",
+                      //  "133 %",
+                      //  "275 %",
+                      //  "250 %",
+                      //  "200 %"
                     )
                 )
             }
@@ -382,7 +383,7 @@ fun HorizontalGridExcelColumnsExample(
 
     Card(
         modifier = Modifier
-            .fillMaxWidth()
+            .wrapContentWidth()
             .height(gridHeight)
             .border(
                 BorderStroke(2.dp, Color.Black),
@@ -393,11 +394,11 @@ fun HorizontalGridExcelColumnsExample(
     ) {
         LazyHorizontalGrid(
             rows = GridCells.Fixed(rows),
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier.fillMaxHeight().wrapContentWidth()
         ) {
             itemsIndexed(items) { index, item ->
                 val columnIndex = index % rows
-                GridCellWithColumnColor(item = item, columnIndex = columnIndex)
+                    GridCellWithColumnColor(item = item, columnIndex = columnIndex)
             }
         }
     }
@@ -413,7 +414,7 @@ fun GridCellWithColumnColor(
 
     Box(
         modifier = Modifier
-            .size(width = 140.dp, height = 40.dp) // Tamaño uniforme de la celda.
+            .size(width = 100.dp, height = 40.dp) // Tamaño uniforme de la celda.
             .background(backgroundColor)
             .border(1.dp, Color.Black),
         contentAlignment = Alignment.Center
@@ -422,7 +423,8 @@ fun GridCellWithColumnColor(
             modifier = Modifier
                 .padding(2.dp),
             text = item,
-            style = MaterialTheme.typography.body1
+            style = MaterialTheme.typography.body2,
+            fontSize = 12.sp
         )
     }
 }
